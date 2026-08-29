@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Build / distribution
+dist/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp

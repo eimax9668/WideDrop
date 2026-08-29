@@ -1,0 +1,38 @@
+#gcwd-drop-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  background: rgba(20, 83, 45, 0.12);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#gcwd-drop-overlay::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  border: 4px solid rgba(22, 163, 74, 0.82);
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+#gcwd-drop-overlay[data-visible="true"] {
+  display: flex;
+}
+
+#gcwd-drop-overlay::before {
+  max-width: min(520px, calc(100vw - 32px));
+  padding: 12px 16px;
+  border: 1px solid rgba(22, 101, 52, 0.25);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
+  color: #14532d;
+  content: "Drop files here to upload";
+  font: 600 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-align: center;
+}
