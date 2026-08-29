@@ -37,7 +37,7 @@ Dock や Finder からドラッグしたファイルを、Google Chat の画面�
 1. Chrome で `chrome://extensions` を開きます。
 2. 右上の「デベロッパー モード」をオンにします。
 3. 「パッケージ化されていない拡張機能を読み込む」を押します。
-4. このリポジトリの `extension` フォルダを選びます。
+4. このリポジトリの `WideDrop-main` フォルダを選びます。
 5. Google Chat を再読み込みします。
 
 ## 使い方
